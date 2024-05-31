@@ -1,5 +1,5 @@
 """
-Aplikasi deteksi gempa terkini
+Aplikasi Deteksi Gempa Terkini
 """
 
 
