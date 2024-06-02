@@ -53,12 +53,11 @@ def data_extract():
 
         # substain value to var
         i = 1
-        if i < len(result_list):
+        while i < len(result_list):
             magnitude = result_list[i]
             i += 1
             kedalaman = result_list[i]
             i += 1
-
             location = result_list[i]
             i += 1
             pusat = result_list[i]
