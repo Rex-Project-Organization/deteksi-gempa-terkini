@@ -1,9 +1,11 @@
 """
 Aplikasi Deteksi Gempa Terkini
 """
-import gempaTerkini as gT
+import gempaTerkini as gt
 
 if __name__ == '__main__':
     print('Aplikasi utama')
-    result = gT.data_extract()
-    gT.show_data(result)
+
+    id_earthquake = gt.GempaTerkini('https://www.bmkg.go.id/')
+    id_earthquake.show_description()
+    id_earthquake.run()
